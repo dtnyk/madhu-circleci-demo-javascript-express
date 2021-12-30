@@ -16,7 +16,7 @@ jobs:
     
       - run: echo "say-hello" > ~/output.txt
       - persist_to_workspace:
-          root: /
+          root: ~/
           paths:
             - output.txt
 
